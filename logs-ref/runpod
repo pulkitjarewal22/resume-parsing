@@ -1,0 +1,35 @@
+2026-06-26 12:21:29,243 - [RUNPOD][WEBHOOK] Resolved future for job_id=a5721b6a-2c9a-4db0-bab5-ccb353e749cc-e1 | status=COMPLETED
+2026-06-26 12:21:29,244 - PROGRESS | Target Embedding ID: 199c60ca-d7f9-4f45-a426-4d534c049b11 | Requests Received: 13 | Requests Done: 12
+2026-06-26 12:21:40,583 - [RUNPOD][WEBHOOK] Resolved future for job_id=75e8f8b0-f2e9-44d6-859d-23400d792a60-e1 | status=COMPLETED
+2026-06-26 12:21:40,584 - PROGRESS | Target Embedding ID: 199c60ca-d7f9-4f45-a426-4d534c049b11 | Requests Received: 13 | Requests Done: 13
+2026-06-26 15:29:23,690 - [RUNPOD][TRIGGER] cancel_jobs_for_entity called | entity_id='429367b6-10d7-48e5-97d5-f6512ba4dfc5' | active_jobs=0 | webhook_pending=0 | entity_webhook_jobs=0
+2026-06-26 15:29:23,690 - [RUNPOD][CANCEL_ENTITY] No webhook jobs found to cancel | entity=429367b6-10d7-48e5-97d5-f6512ba4dfc5
+2026-06-26 15:29:24,519 - [RUNPOD][TRIGGER] cancel_jobs_for_source called with payload source_id: '429367b6-10d7-48e5-97d5-f6512ba4dfc5'
+2026-06-26 15:29:24,523 - [RUNPOD][TRIGGER] cancel_jobs_for_source called with payload source_id: '429367b6-10d7-48e5-97d5-f6512ba4dfc5'
+2026-06-26 15:29:25,370 - [RUNPOD][WEBHOOK] Submitted | job_id=4835edc0-934f-4b67-bb77-10fc3aa8c468-e2 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:69819ce5-d337-4579-bdac-5e65ecd31a57 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,373 - [RUNPOD][WEBHOOK] Submitted | job_id=d7f16c37-dfae-4ea2-bc24-9788e5df3c0c-e1 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:cfb3a342-e4bc-4dfd-8410-1847d7b3a81d | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,374 - [RUNPOD][WEBHOOK] Submitted | job_id=00c8d9db-f8f9-4942-b517-a506516dab59-e1 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:9594efe3-6e9f-4e49-9eef-e0d608edfdbb | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,380 - [RUNPOD][WEBHOOK] Submitted | job_id=de3b4040-2945-4752-a72f-1775f931d8bc-e2 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:7cb75a77-1b96-4c00-9c7b-2e405b4c42f7 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,387 - [RUNPOD][WEBHOOK] Submitted | job_id=ccb179dc-3048-4cb7-887a-15a0df4b1f0e-e2 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:73b218b5-47f1-42d2-a243-8730216bbfb1 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,394 - [RUNPOD][WEBHOOK] Submitted | job_id=b79c5b71-3e85-4bc3-a67c-21d5db1d74f1-e1 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:0729c22b-ef99-45f6-8f6e-b507dddda9a6 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,395 - [RUNPOD][WEBHOOK] Submitted | job_id=0ef866e8-d74d-4b9a-a635-0fb25679624d-e1 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:e06f9a3a-db6a-438b-87a5-f28234c14dec | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,395 - [RUNPOD][WEBHOOK] Submitted | job_id=758e2420-f552-4456-b3fa-459cf809afa3-e1 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:0449aa6f-a510-45f6-9a31-6f3dced15143 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,397 - [RUNPOD][WEBHOOK] Submitted | job_id=1610ccb1-3c4c-4901-a717-ab760a6d52ca-e1 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:7dc35f57-43a2-4a41-8bee-d6db55b8ff60 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,403 - [RUNPOD][WEBHOOK] Submitted | job_id=9cc2c2de-76c9-4d63-834d-9757860cfc65-e1 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:38da1b70-dd18-4a1e-a793-2c450eb576f3 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,577 - [RUNPOD][WEBHOOK] Submitted | job_id=7f467e78-77dd-4014-afe0-2f68268114a3-e2 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:493c2481-2773-4493-9de6-e037ca090ce6 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,593 - [RUNPOD][WEBHOOK] Submitted | job_id=e886899b-42fb-4bc5-9254-d6c2516ea8a7-e1 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:1014a61e-96df-4c95-a0cc-c417d6277b48 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,596 - [RUNPOD][WEBHOOK] Submitted | job_id=0c965535-6d17-4e2f-912b-00c09e76277a-e1 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:6bca916f-125d-4a7a-b039-41681ace3f6b | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:25,958 - [RUNPOD][WEBHOOK] Submitted | job_id=eac20423-cf8d-4f94-b397-4a494ad8d87a-e2 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:5abf0446-1f94-4beb-8e84-f1bfbfb25373 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:26,678 - [RUNPOD][WEBHOOK] Submitted | job_id=8a4614b7-6efc-45b2-a30d-1f0e45ebe0d4-e2 | embedding_id=429367b6-10d7-48e5-97d5-f6512ba4dfc5:fa6b47bb-861c-4d9e-a074-7c717dac927d | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:47,556 - [RUNPOD][TRIGGER] cancel_jobs_for_entity called | entity_id='3dc54704-578a-4a3d-aac8-ce4ffc0988e2' | active_jobs=15 | webhook_pending=15 | entity_webhook_jobs=0
+2026-06-26 15:29:47,556 - [RUNPOD][CANCEL_ENTITY] No webhook jobs found to cancel | entity=3dc54704-578a-4a3d-aac8-ce4ffc0988e2
+2026-06-26 15:29:48,364 - [RUNPOD][TRIGGER] cancel_jobs_for_source called with payload source_id: '3dc54704-578a-4a3d-aac8-ce4ffc0988e2'
+2026-06-26 15:29:48,996 - [RUNPOD][WEBHOOK] Submitted | job_id=b8dedd69-14c1-4e9d-be18-9f91e34ef206-e2 | embedding_id=3dc54704-578a-4a3d-aac8-ce4ffc0988e2:199c60ca-d7f9-4f45-a426-4d534c049b11 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:29:49,000 - [RUNPOD][WEBHOOK] Submitted | job_id=4e31499b-7285-460d-9050-f0c91e03c49e-e1 | embedding_id=3dc54704-578a-4a3d-aac8-ce4ffc0988e2:84e21404-b25a-4533-bafa-5126f6a63981 | webhook=https://tt-parsing.pharynxai.in/runpod/webhook
+2026-06-26 15:30:03,620 - [RUNPOD][WEBHOOK] Resolved future for job_id=b79c5b71-3e85-4bc3-a67c-21d5db1d74f1-e1 | status=COMPLETED
+2026-06-26 15:30:04,350 - PROGRESS | Target Embedding ID: 429367b6-10d7-48e5-97d5-f6512ba4dfc5 | Requests Received: 5 | Requests Done: 1
+2026-06-26 15:30:06,942 - [RUNPOD][WEBHOOK] Resolved future for job_id=00c8d9db-f8f9-4942-b517-a506516dab59-e1 | status=COMPLETED
+2026-06-26 15:30:06,943 - PROGRESS | Target Embedding ID: 429367b6-10d7-48e5-97d5-f6512ba4dfc5 | Requests Received: 5 | Requests Done: 2
+2026-06-26 15:30:10,368 - [RUNPOD][WEBHOOK] Resolved future for job_id=7f467e78-77dd-4014-afe0-2f68268114a3-e2 | status=COMPLETED
+2026-06-26 15:30:10,816 - PROGRESS | Target Embedding ID: 429367b6-10d7-48e5-97d5-f6512ba4dfc5 | Requests Received: 10 | Requests Done: 1
+

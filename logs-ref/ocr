@@ -1,0 +1,31 @@
+Sending OCR request payload:
+{
+  "input": {
+    "messages": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Extract all text from this document accurately."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "data:image/png;base64,<TRUNCATED>"
+            }
+          }
+        ]
+      }
+    ],
+    "sampling_params": {
+      "temperature": 0
+    }
+  },
+  "policy": {
+    "executionTimeout": 300000,
+    "lowPriority": false,
+    "ttl": 600000
+  }
+}
+ AND RECIEVED AS WELL

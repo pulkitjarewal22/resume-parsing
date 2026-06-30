@@ -1,0 +1,6 @@
+{"timestamp": "2026-06-24T18:39:24.179302", "direction": "BOOLEAN_QUERY_RESULT", "identifier": "voice_text", "data": {"status": "success", "data": ["(business analyst)"]}}
+{"timestamp": "2026-06-24T18:39:25.921570", "direction": "VOICE_LLM_RAW_CONTENT", "identifier": "voice_text", "data": "[\n  {\"field\": \"currentJobTitle\", \"condition\": \"contains\", \"value\": \"business analyst\"},\n  {\"field\": \"primarySkills\", \"condition\": \"contains\", \"value\": \"business analyst\"},\n  {\"field\": \"secondarySkills\", \"condition\": \"contains\", \"value\": \"business analyst\"}\n]"}
+{"timestamp": "2026-06-24T18:55:54.887364", "direction": "BOOLEAN_QUERY_LLM_OUTPUT", "identifier": "boolean_query", "data": "(\"business analyst\")"}
+{"timestamp": "2026-06-24T18:55:56.062964", "direction": "BOOLEAN_QUERY_RESULT", "identifier": "voice_text", "data": {"status": "success", "data": ["(business analyst)"]}}
+{"timestamp": "2026-06-24T18:55:58.772254", "direction": "VOICE_LLM_RAW_CONTENT", "identifier": "voice_text", "data": "[\n  {\"field\": \"currentJobTitle\", \"condition\": \"contains\", \"value\": \"business analyst\"},\n  {\"field\": \"primarySkills\", \"condition\": \"contains\", \"value\": \"business analyst\"},\n  {\"field\": \"secondarySkills\", \"condition\": \"contains\", \"value\": \"business analyst\"}\n]"}
+
