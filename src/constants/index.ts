@@ -10,6 +10,7 @@ export const ENVIRONMENTS: { value: Environment; label: string; color: string }[
   { value: 'prod', label: 'Production', color: '#f44336' },
 ];
 
+// Updated Navigation - ONLY showing active pages
 export const NAV_GROUPS: NavGroup[] = [
   {
     id: 'dashboard',
@@ -19,49 +20,10 @@ export const NAV_GROUPS: NavGroup[] = [
     ],
   },
   {
-    id: 'operations',
-    label: 'Operations',
+    id: 'logging',
+    label: 'Logging & Monitoring',
     items: [
-      { id: 'search', label: 'Search', path: '/search', icon: 'Search' },
-      { id: 'ocr', label: 'OCR Processing', path: '/ocr', icon: 'DocumentScanner' },
-      {
-        id: 'parsing',
-        label: 'Resume Parsing',
-        path: '/parsing',
-        icon: 'Description',
-        children: [
-          { id: 'single-resume', label: 'Single Resume Parsing', path: '/parsing/single-resume', icon: 'Description' },
-          { id: 'bulk-parsing', label: 'Bulk Parsing', path: '/parsing/bulk-parsing', icon: 'Description' },
-          { id: 'jd-parsing', label: 'JD Parsing', path: '/parsing/jd-parsing', icon: 'Description' },
-        ]
-      },
-      {
-        id: 'matching',
-        label: 'Matching Engine',
-        path: '/matching',
-        icon: 'CompareArrows',
-        children: [
-          { id: 'cd-to-jd', label: 'CD to JD', path: '/matching/cd-to-jd', icon: 'CompareArrows' },
-          { id: 'jd-to-cd', label: 'JD to CD', path: '/matching/jd-to-cd', icon: 'CompareArrows' },
-          { id: 'cd-to-cd', label: 'CD to CD', path: '/matching/cd-to-cd', icon: 'CompareArrows' },
-          { id: 'jd-to-jd', label: 'JD to JD', path: '/matching/jd-to-jd', icon: 'CompareArrows' },
-        ]
-      },
-      { id: 'ai-search', label: 'AI Search', path: '/ai-search', icon: 'Psychology' },
-    ],
-  },
-  {
-    id: 'content',
-    label: 'Content Management',
-    items: [
-      { id: 'boolean-query', label: 'Boolean Query', path: '/boolean-query', icon: 'Code' },
-      { id: 'jd-builder', label: 'JD Builder', path: '/jd-builder', icon: 'WorkOutlined' },
-    ],
-  },
-  {
-    id: 'admin',
-    label: 'Administration',
-    items: [
+      { id: 'logs', label: 'Application Logs', path: '/logs', icon: 'Terminal' },
       { id: 'runpod-logs', label: 'RunPod Logs', path: '/runpod-logs', icon: 'Terminal' },
       { id: 'error-logs', label: 'Error Logs', path: '/error-logs', icon: 'BugReport' },
     ],
